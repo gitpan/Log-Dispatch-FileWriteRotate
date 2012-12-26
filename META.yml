@@ -1,0 +1,23 @@
+---
+abstract: 'Log to files that archive/rotate themselves, w/ File::Write::Rotate'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Log-Dispatch-FileWriteRotate
+requires:
+  File::Write::Rotate: 0
+  Log::Dispatch::Output: 0
+  perl: 5.010001
+resources:
+  homepage: http://metacpan.org/dist/Log-Dispatch-FileWriteRotate
+  repository: http://github.com/sharyanto/perl-Log-Dispatch-FileWriteRotate
+version: 0.01
