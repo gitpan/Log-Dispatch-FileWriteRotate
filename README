@@ -3,7 +3,7 @@ NAME
     themselves, w/ File::Write::Rotate
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
      use Log::Dispatch::FileWriteRotate;
@@ -28,6 +28,9 @@ DESCRIPTION
     other modules which use File::Write::Rotate as backend, e.g.
     Tie::Handle::FileWriteRotate or Process::Govern.
 
+FUNCTIONS
+    None are exported by default, but they are exportable.
+
 METHODS
   new(%args)
     Constructor. This method takes a hash of parameters. The following
@@ -45,11 +48,27 @@ SEE ALSO
 
     File::Write::Rotate
 
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Log-Dispatch-FileWriteRotate>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-Log-Dispatch-FileWriteRotate>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    "/rt.cpan.org/Public/Dist/Display.html?Name=Log-Dispatch-FileWriteR
+    otate" in https:
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2012 by Steven Haryanto.
+    This software is copyright (c) 2013 by Steven Haryanto.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
